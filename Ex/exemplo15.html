@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/eoq.css">
+</head>
+<body>
+     <div id="corpo" class="container">
+        <h1>Bem vindo ao botstrap!</h1>
+        <form action="" method="GET">
+            <div class="row">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div class="form-gorup col-xs-6" >  
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome">
+                </div>
+                <div class="form-gorup col-xs-6">  
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" class="form-control" name="nascimento" id="nascimento">
+                </div>
+                
+                <div class="form-gorup col-xs-12">  
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" name="email" id="email">
+                </div>
+
+                <div class="form-gorup col-xs-12">  
+                        <label for="cpf">CPF</label>
+                        <input type="text" class="form-control" name="cpf" id="cpf">
+                </div>
+           
+            </fieldset>
+            <br><br>
+            <fieldset>
+                    <legend>Dados Endereço</legend>
+                    <div class="form-gorup col-xs-12" >  
+                        <label for="estado">Estado</label>
+                        <input type="text" class="form-control" name="estado" id="estado">
+                    </div>
+                    <div class="form-gorup col-xs-12">  
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" name="cidade" id="cidade">
+                    </div>
+                    
+                    <div class="form-gorup col-xs-11">  
+                            <label for="rua">Rua</label>
+                            <input type="text" class="form-control" name="rua" id="rua">
+                    </div>
+    
+                    <div class="form-gorup col-xs-1">  
+                            <label for="numero">Número</label>
+                            <input type="text" class="form-control" name="numero" id="numero">
+                    </div>
+                    
+                  
+                </fieldset>
+                <br><br>
+                <fieldset>
+                        <legend>Dados de Pagamento</legend>
+                        <input 
+                            type="checkbox"
+                            name="visa"
+                            value=visa
+                            >Visa
+                            <Br>
+    
+                      
+                        <Br>
+                        <input 
+                        type="checkbox"
+                        name="Vice-Lider"
+                        value=Vice-Lider
+                        >Mastercard
+                    
+                         
+                    </fieldset>
+                    <botton type="reset" class="btn btn-primary">Cadastar</botton>
+            </div>
+        </form>
+    </div>
+</body>
+
