@@ -1,0 +1,44 @@
+body {
+    margin: 0; padding: 0; background:#ddd;
+    }
+#pagina {
+    margin: 1em auto; width:1050px; background:#fff;
+    }
+
+#cabecalho {
+    
+    background:#48B;
+    text-align:center;
+    }
+#menuesquerdo {
+    
+        float: right;
+        width: 350px;
+        height: 200px;
+        background:rgb(134, 68, 255);
+        
+     }
+#menumeio {
+    
+            float: right;
+            width: 350px;
+            height: 200px;
+            background:rgb(165, 151, 190);
+            
+     }
+            
+#menudireito{
+    
+    float: right;
+    width: 350px;
+    height: 200px;
+    background:rgb(68, 255, 140);
+    
+    }
+
+#rodape {
+    
+    clear:both;
+    background:#9B5;
+    
+    }
