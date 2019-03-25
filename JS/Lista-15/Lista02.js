@@ -97,7 +97,7 @@ let Mix = (BuyLata*precoLata)+(BuyGalao*precoGalao);
 alert("\nSegue abaixo a quantidade de tinta a ser comprada e os preços em três situações: "+
 "\n1) Compra de latas de 18 litros:\nQuant: "+qtdLata+"\nPreço: "+ compraLata +
 "\n2) Compra de galões de 3,6 litros:\nQuant: "+qtdGalao+"\nPreço: "+ compraGalao +
-"\n3) Compra de latas e galões de forma a pagar o mínimo possível:\nQuant. de latas: "+ BuyLata +"\nQuant. de galões: " + BuyGalao + "\nPreço Total: "+ Mix);
+"\n3) Compra de latas e galões de forma a pagar o mínipossmo ível:\nQuant. de latas: "+ BuyLata +"\nQuant. de galões: " + BuyGalao + "\nPreço Total: "+ Mix);
 
 /*--Exercicio 08--*/
 
